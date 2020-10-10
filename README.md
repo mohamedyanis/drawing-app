@@ -32,7 +32,6 @@ Options         |  Export as..
 <br><br>
 
 
-##### FullScreen
 Full Screen
 :---------------------:
 ![screenshot](screenshots/da9.png)
