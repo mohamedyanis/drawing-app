@@ -29,7 +29,6 @@ Brush         |  Background
 ![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/da6.png)
 Options         |  Export as..
 ![screenshoot](screenshots/da7.png) | ![screenshoot](screenshots/da8.png)
-<br><br>
 
 
 Full Screen
