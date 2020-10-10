@@ -14,7 +14,7 @@ But me..! I did it differently, every day I built an app, a game, a web page or 
 * [x] Free & Open Source
 * [x] Very Easy to use
 * [x] No Internet connection required
-* [x] <del> Saving the work
+* [x] Saving the work
 
 ## Thank _You_!
 Please :star: this repo to help us improve the quality.
@@ -29,8 +29,6 @@ Brush         |  Background
 ![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/da6.png)
 Options         |  Export as..
 ![screenshoot](screenshots/da7.png) | ![screenshoot](screenshots/da8.png)
-Full Screen
-![screenshot](screenshots/da9.png)
 
 ## Requirements
 * python
