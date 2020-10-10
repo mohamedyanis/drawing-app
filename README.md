@@ -26,7 +26,7 @@ Home           | Drawing
 Brush or bg         |  Colors
 ![screenshoot](screenshots/da3.png) | ![screenshoot](screenshots/da4.png)
 Brush         |  Background
-![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/pa6.png)
+![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/da6.png)
 
 ## Requirements
 * python
