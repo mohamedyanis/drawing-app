@@ -24,19 +24,15 @@ Home           | Drawing
 :---------------------:|:------------------:
 ![screenshoot](screenshots/da1.png) | ![screenshoot](screenshots/da2.png)
 ###### colors
-:---------------------:|:------------------:
 Brush or bg         |  Colors
 ![screenshoot](screenshots/da3.png) | ![screenshoot](screenshots/da4.png)
 ###### painting
-:---------------------:|:------------------:
 Brush         |  Background
 ![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/pa6.png)
 ###### options
-:---------------------:|:------------------:
 Options         |  Export as..
 ![screenshoot](screenshots/da7.png) | ![screenshoot](screenshots/pa8.png)
 ###### fullscreen
-:---------------------:
 Full Screen!
 ![screenshot](screenshots/da9.png)
 
