@@ -21,18 +21,12 @@ PS: You can check all my project <a href='http://y100daysofcode.ml' target='_bla
 Please :star: this repo to help us improve the quality.
 
 
-## PCB Block Diagram
-PCB System Block
-:---------------------:
-![screenshot](RepoImages/BlockDiagram.png)
-
-
 ## Sceenshots
 Home           | Drawing
 :---------------------:|:------------------:
 ![screenshoot](screenshots/da1.png) | ![screenshoot](screenshots/da2.png)
 Brush or bg         |  Colors
-![screenshoot](screenshots/da3.png | ![screenshoot](screenshots/da4.png)
+![screenshoot](screenshots/da3.png) | ![screenshoot](screenshots/da4.png)
 Brush        |  Background
 ![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/da6.png)
 Options        |  Export as..
