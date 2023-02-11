@@ -1,56 +1,65 @@
-# Drawing App
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+# STM32L0-ESP32 Breakout Board
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
 
-This is a simple desktop app written in Python With Tkinter module.<br>
-Click <a href="https://docs.python.org/3/library/tk.html"> here</a> to read more about **tkinter** module.<br>
+This is a small Printed Circuit Board (PCB) breakout that is based on the STM32 microcontroller as well as the ESP32 dev module.
+The PCB is designed using the free and open source software <a href="https://github.com/KiCad">KiCad</a>. 
 
-## #100daysofcode
-Almost a hundred days ago from now (01/10/2020), I decided to do the #100daysofcode challenge. This challenge is simply for someone to code every day and post on social media a picture shows that he wrote a code (every day). And than they share with us the final project.<br>
-But me..! I did it differently, every day I built apps, games, web pages or desktop apps. Every day something new and I shared all my apps simulation on my Instagram account (you can see my highlight stories), click <a href='https://instagram.com/medyanis_hiou' target='_blank'>here</a> if you wanna see it. And than I'll mix all my small apps in one big project. So I decided to share all the projects with you.<br><br>
-PS: You can check all my project <a href='http://y100daysofcode.ml' target='_blank'>here</a><br>
+## More Details
+The PCB is based on the STM32L0 series, specificaly the STM32L031G6U6 microcontroller which is a low power based MCU. The MCU is operated with a High Speed External (HSE) clock signal of a 16 MHz crystal oscillator.<br><br>
+It operating with an input voltage from 12V to 5V. The input voltage will be filtred and reduced to 3V3 in order to power the STM32 MCU as well as the ESP32 module.<br><br>
+The purpose of this PCB is to control the temperature with a PID controller. It has two connectors for that, one for reading temperature value with a thermostate that gives an analog signal, and the other connector is used to control the temperature using an Solid State Relay (SSR) controlled by a PWM signal.<br><br>
+The data read from th STM32 MCU is transmitted to the ESP32 dev module via 'USART' protocol in order to send the data to the cloud and the temperature could be controlled wirelessly anywhere with a smart phone or a web application.<br><br>
+STM32 MCU can be flashed using SWD programmer and the ESP32 dev module could be programmed using a USB-to-TTL converter.<br>
+
 
 
 ## Features :dart:
-* [x] Free & Open Source
-* [x] Very Easy to use
-* [x] No Internet connection required
-* [x] Saving the work
+* [x] Four layers PCB
+* [x] Low power
+* [x] Small size
+* [x] Very easy to use
 
 ## Thank _You_!
 Please :star: this repo to help us improve the quality.
+<br><br>
 
-## Screenshots
-Home           | Drawing
-:---------------------:|:------------------:
-![screenshoot](screenshots/da1.png) | ![screenshoot](screenshots/da2.png)
-Brush or bg         |  Colors
-![screenshoot](screenshots/da3.png) | ![screenshoot](screenshots/da4.png)
-Brush         |  Background
-![screenshoot](screenshots/da5.png) | ![screenshoot](screenshots/da6.png)
-Options         |  Export as..
-![screenshoot](screenshots/da7.png) | ![screenshoot](screenshots/da8.png)
-
-
-Full Screen
+## PCB Block Diagram
+PCB System Block
 :---------------------:
-![screenshot](screenshots/da9.png)
+![screenshot](RepoImages/BlockDiagram.png)
+
+
+## 3D Viewer
+Front View           | Back View
+:---------------------:|:------------------:
+![screenshoot](RepoImages/PCB-R-Front.png) | ![screenshoot](RepoImages/PCB-R-Back.png)
+Side View 1         |  Side View 2
+![screenshoot](RepoImages/PCB-R-Side-1.png) | ![screenshoot](RepoImages/PCB-R-Side-2.png)
+Side View 3         |  Side View 4
+![screenshoot](RepoImages/PCB-R-Side-3.png) | ![screenshoot](RepoImages/PCB-R-Side-4.png)
+
 
 ## Requirements
-* python
-* tkinter module
-* PIL library
- 
+
+If you want to review the PCB or yoou wanna edit the schematics/layout, yoou only need to install KiCad software to your machine.
+
+* Go to the <a href="https://www.kicad.org/download/">Official KiCad Download Page</a>.
+* Select your operating system.
+* Download the executable file and install it.
+
+## Documentations
+Open the "Datasheets" folder and you will find all the datasheets, applications notes, and design guidelines that help you understand the design better.
+
+
 ## How To Use It
-1. Download Python from this link: https://www.python.org/downloads/
-2. Install the packeges, write in your command (cmd):
-```bash
-pip install tkinter
-pip install Pillow
-```
-3. Install this repository, click <a href="https://github.com/mohamedyanis/drawing-app/archive/master.zip"> here </a> to install it.
-4. Extract the folder.
-5. Run the ```Drawing_app.py``` file.
+
+1. Install this repository, click <a href="https://github.com/mohamedyanis/drawing-app/archive/master.zip"> here </a> to install it.
+2. Extract the folder and open it.
+3. Navigate for the "Manufacturing" folder.
+4. Go to your best PCB manufacturer website and click on quote.
+5. Upload the ```STM32L0-ESP32-Breakout-Board-Gerber.zip``` in order to order the board.
+6. In case you want to receive it assembled, upload the ```STM32L0_ESP32_Breakout_Board_BOM.csv``` and ```STM32L0_ESP32_Breakout_Board_Components_Positions``` files.
 
 ## Contributing 💡
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.<br>
